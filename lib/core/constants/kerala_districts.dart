@@ -1,0 +1,177 @@
+class DistrictInfo {
+  final String code;
+  final String nameEn;
+  final String nameMl;
+  final String region;
+  final double latitude;
+  final double longitude;
+  final String iconicSpot;
+
+  const DistrictInfo({
+    required this.code,
+    required this.nameEn,
+    required this.nameMl,
+    required this.region,
+    required this.latitude,
+    required this.longitude,
+    required this.iconicSpot,
+  });
+}
+
+class KeralaDistricts {
+  static const List<DistrictInfo> all = [
+    DistrictInfo(
+      code: 'KL-TVM',
+      nameEn: 'Thiruvananthapuram',
+      nameMl: 'തിരുവനന്തപുരം',
+      region: 'South Kerala',
+      latitude: 8.5241,
+      longitude: 76.9366,
+      iconicSpot: 'Kovalam & Shankhumukham',
+    ),
+    DistrictInfo(
+      code: 'KL-KLM',
+      nameEn: 'Kollam',
+      nameMl: 'കൊല്ലം',
+      region: 'South Kerala',
+      latitude: 8.8932,
+      longitude: 76.6141,
+      iconicSpot: 'Ashtamudi Lake',
+    ),
+    DistrictInfo(
+      code: 'KL-PTA',
+      nameEn: 'Pathanamthitta',
+      nameMl: 'പത്തനംതിട്ട',
+      region: 'Central Travancore',
+      latitude: 9.2648,
+      longitude: 76.7870,
+      iconicSpot: 'Gavi & Sabarimala',
+    ),
+    DistrictInfo(
+      code: 'KL-ALP',
+      nameEn: 'Alappuzha',
+      nameMl: 'ആലപ്പുഴ',
+      region: 'Central Kerala',
+      latitude: 9.4981,
+      longitude: 76.3388,
+      iconicSpot: 'Vembanad Backwaters',
+    ),
+    DistrictInfo(
+      code: 'KL-KTM',
+      nameEn: 'Kottayam',
+      nameMl: 'കോട്ടയം',
+      region: 'Central Kerala',
+      latitude: 9.5916,
+      longitude: 76.5222,
+      iconicSpot: 'Kumarakom & Illikkal Kallu',
+    ),
+    DistrictInfo(
+      code: 'KL-IDK',
+      nameEn: 'Idukki',
+      nameMl: 'ഇടുക്കി',
+      region: 'High Ranges',
+      latitude: 9.8500,
+      longitude: 76.9667,
+      iconicSpot: 'Munnar & Arch Dam',
+    ),
+    DistrictInfo(
+      code: 'KL-EKM',
+      nameEn: 'Ernakulam / Kochi',
+      nameMl: 'എറണാകുളം / കൊച്ചി',
+      region: 'Central Kerala',
+      latitude: 9.9816,
+      longitude: 76.2999,
+      iconicSpot: 'Fort Kochi & Marine Drive',
+    ),
+    DistrictInfo(
+      code: 'KL-TSR',
+      nameEn: 'Thrissur',
+      nameMl: 'തൃശ്ശൂർ',
+      region: 'Cultural Capital',
+      latitude: 10.5276,
+      longitude: 76.2144,
+      iconicSpot: 'Thekkinkadu Maidan & Athirappilly',
+    ),
+    DistrictInfo(
+      code: 'KL-PKD',
+      nameEn: 'Palakkad',
+      nameMl: 'പാലക്കാട്',
+      region: 'Gateway of Kerala',
+      latitude: 10.7867,
+      longitude: 76.6548,
+      iconicSpot: 'Malampuzha & Silent Valley',
+    ),
+    DistrictInfo(
+      code: 'KL-MLP',
+      nameEn: 'Malappuram',
+      nameMl: 'മലപ്പുറം',
+      region: 'Malabar',
+      latitude: 11.0732,
+      longitude: 76.0740,
+      iconicSpot: 'Kottakkunnu & Teak Museum',
+    ),
+    DistrictInfo(
+      code: 'KL-KKD',
+      nameEn: 'Kozhikode',
+      nameMl: 'കോഴിക്കോട്',
+      region: 'City of Spices & Literature',
+      latitude: 11.2588,
+      longitude: 75.7804,
+      iconicSpot: 'Kozhikode Beach & SM Street',
+    ),
+    DistrictInfo(
+      code: 'KL-WYD',
+      nameEn: 'Wayanad',
+      nameMl: 'വയനാട്',
+      region: 'High Ranges',
+      latitude: 11.6854,
+      longitude: 76.1320,
+      iconicSpot: 'Banasura Sagar & Chembra Peak',
+    ),
+    DistrictInfo(
+      code: 'KL-KNR',
+      nameEn: 'Kannur',
+      nameMl: 'കണ്ണൂർ',
+      region: 'North Malabar',
+      latitude: 11.8745,
+      longitude: 75.3704,
+      iconicSpot: 'Payyambalam Beach & Muzhappilangad',
+    ),
+    DistrictInfo(
+      code: 'KL-KSD',
+      nameEn: 'Kasaragod',
+      nameMl: 'കാസർഗോഡ്',
+      region: 'North Malabar',
+      latitude: 12.5102,
+      longitude: 74.9852,
+      iconicSpot: 'Bekal Fort & Ranipuram',
+    ),
+    DistrictInfo(
+      code: 'DIA-DXB',
+      nameEn: 'Dubai, UAE',
+      nameMl: 'ദുബായ്',
+      region: 'Gulf Diaspora',
+      latitude: 25.2048,
+      longitude: 55.2708,
+      iconicSpot: 'Karama & Deira Malayali Hub',
+    ),
+    DistrictInfo(
+      code: 'DIA-BLR',
+      nameEn: 'Bengaluru, India',
+      nameMl: 'ബംഗളൂരു',
+      region: 'Diaspora Tech Corridor',
+      latitude: 12.9716,
+      longitude: 77.5946,
+      iconicSpot: 'Koramangala & Indiranagar',
+    ),
+    DistrictInfo(
+      code: 'DIA-LON',
+      nameEn: 'London, UK',
+      nameMl: 'ലണ്ടൻ',
+      region: 'Europe Diaspora',
+      latitude: 51.5074,
+      longitude: -0.1278,
+      iconicSpot: 'East Ham & Croydon Community',
+    ),
+  ];
+}
